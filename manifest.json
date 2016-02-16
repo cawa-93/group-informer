@@ -1,7 +1,7 @@
  {
 	"manifest_version": 2,
 	"name": "Group Informer",
-	"description": "",
+	"description": "Небольшое расширение для тех, кто ведет бизнес в соц.сети Вконтакте",
 
 	"version": "0.1",
 
@@ -23,7 +23,7 @@
 	},
 
 	"browser_action": {
-		"default_title": "__MSG_extName__",
+		"default_title": "Group Informer",
 		"default_icon": "img/icon38.png",
 		"default_popup": "popup/popup.html"
 	},
