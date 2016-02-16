@@ -11,7 +11,7 @@ body {
       max-width: 600px;
       width: 100%; } }
 
-.panel {
+.panel, .row {
     max-width: 865px;
     margin-left: auto;
     margin-right: auto;
@@ -39,3 +39,4 @@ body {
   max-width: 865px;
     margin: 0 auto;
 }
+
