@@ -1,0 +1,39 @@
+ {
+	"manifest_version": 2,
+	"name": "Group Informer",
+	"description": "",
+
+	"version": "0.1",
+
+
+	"homepage_url": "https://vk.com/club90041499",
+	"author": "Александр Козак",
+	"developer": {
+		"name": "Александр Козак",
+		"url": "https://vk.com/id45421694"
+	},
+
+	"icons": {
+		"128": "img/icon128.png"
+	},
+
+	"options_page": "options/index.html",
+	"background": {
+		"page": "background.html"
+	},
+
+	"browser_action": {
+		"default_title": "__MSG_extName__",
+		"default_icon": "img/icon38.png",
+		"default_popup": "popup/popup.html"
+	},
+
+	"permissions": [
+		"*://vk.com/",
+		"*://vk.com/*",
+		"*://*.vk.com/*",
+		"background",
+		"storage",
+		"notifications"
+	]
+}

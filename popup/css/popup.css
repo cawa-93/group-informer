@@ -1,0 +1,26 @@
+body {
+  width: 375px;
+      color: #000;
+    font: normal 15px "Arial", sans-serif;
+    background: #f0f2f5;
+}
+.list-group {
+  margin-bottom: 0px;
+}
+.list-group-item img {
+  margin-right: 10px;
+}
+
+.badge {
+  margin-top: 3px;
+  background-color: #337ab7;
+}
+
+.copy {
+  line-height: 20px;
+  font-size: 11px;
+  text-align: right;
+  display: block;
+  padding: 0 10px;
+  color: #AAAFB5;
+}

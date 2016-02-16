@@ -1,0 +1,41 @@
+
+body {
+  color: #000;
+  font: normal 15px "Arial", sans-serif;
+  background: #f0f2f5;
+  margin: 0 auto;
+  padding: 50px 10px;
+  box-sizing: border-box; }
+  @media (max-width: 1000px) {
+    body {
+      max-width: 600px;
+      width: 100%; } }
+
+.panel {
+    max-width: 865px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.input-group .form-control.gr-id {
+  width: 125px;
+}
+.input-group .form-control.gr-key {
+  width: calc(100% - 125px);
+}
+.table {
+  margin: 0;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+  vertical-align: middle;
+}
+
+.copy {
+  line-height: 20px;
+  font-size: 11px;
+  text-align: right;
+  display: block;
+  color: #AAAFB5;
+  max-width: 865px;
+    margin: 0 auto;
+}
