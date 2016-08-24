@@ -3,6 +3,7 @@
 /*jshint -W097*/
 
 "use strict";
+
 const vk = new Vk();
 var MainBadge = 0;
 
